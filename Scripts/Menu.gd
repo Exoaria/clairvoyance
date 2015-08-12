@@ -3,4 +3,4 @@ func _on_MenuButton_3_pressed():
 
 
 func _on_MenuButton_pressed():
-	get_node("/root/globals").setScene("res://map1.scn")
+	get_tree().change_scene("res://Scenes/Map1.scn")
